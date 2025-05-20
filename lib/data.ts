@@ -25,9 +25,9 @@ export const plans = [
       ],
     },
     {
-      title: "Plan Premium",
+      title: "Plan Personalizado",
       description: "La experiencia fitness definitiva con atención personalizada",
-      price: "$199.900",
+      price: "Contactanos",
       features: [
         "Acceso VIP a todas las instalaciones",
         "Plan nutricional premium",
@@ -64,19 +64,19 @@ export const plans = [
   export const testimonials = [
     {
       name: "María González",
-      image: "/placeholder.svg?height=100&width=100",
+      image: "/vercel.svg",
       quote: "Desde que comencé con el programa de Carlos, he perdido 15 kilos y me siento con más energía que nunca.",
       rating: 5,
     },
     {
       name: "Juan Pérez",
-      image: "/placeholder.svg?height=100&width=100",
+      image: "/next.svg",
       quote: "Los entrenadores son increíbles y el ambiente del gimnasio es muy motivador. Recomendado al 100%.",
       rating: 5,
     },
     {
       name: "Ana Martínez",
-      image: "/placeholder.svg?height=100&width=100",
+      image: "/vercel.svg",
       quote: "El plan nutricional personalizado cambió completamente mi relación con la comida. ¡Gracias Carlos!",
       rating: 4,
     },
