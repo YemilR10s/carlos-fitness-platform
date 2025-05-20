@@ -4,7 +4,8 @@ import { useState } from "react"
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { navLinks } from "@/lib/data"
-import { Menu } from "lucide-react"
+import { Menu, User } from "lucide-react"
+import Link from "next/link"
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -44,6 +45,12 @@ export default function Header() {
             size="icon"
             aria-label="Cambiar tema"
           >
+          </Button>
+          <Button variant="outline" size="icon" asChild>
+            <Link href="/login">
+              <User className="h-5 w-5" />
+              <span className="sr-only">Iniciar sesión</span>
+            </Link>
           </Button>
         </nav>
 
