@@ -35,7 +35,7 @@ export default function LoginPage() {
     // Simulamos un proceso de login
     setTimeout(() => {
       setIsLoading(false)
-      router.push("/panel-admin")
+      router.push("/panel-administrador")
     }, 1000)
   }
 

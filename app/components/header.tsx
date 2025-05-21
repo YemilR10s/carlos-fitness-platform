@@ -15,7 +15,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container max-w-[1200px] m-auto flex h-16 items-center justify-between">
-        <div className="flex items-center gap-2 font-bold text-xl">
+        <Link href="/" className="flex items-center gap-2 font-bold text-xl">
           <motion.div
             initial={{ rotate: 0 }}
             animate={{ rotate: 360 }}
@@ -25,7 +25,7 @@ export default function Header() {
             C
           </motion.div>
           Carlos Fitness
-        </div>
+        </Link>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-6">
